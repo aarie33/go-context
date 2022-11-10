@@ -22,3 +22,6 @@ salah satu fungsinya untuk menghidari Goroutine leak
 ## Context with deadline
 - pengaturan deadline ditentukan kapan waktu timeout nya, misal jam 12 siang hari ini
 - `context.WithDeadline(parent, time)`
+
+## Slide
+<a href="https://docs.google.com/presentation/d/1WhJvRpKPWq7LY9P6fMN93vkjKa1bJwBQebbieKdefPw/edit?usp=sharing" target="_blank">Slide course here</a>
