@@ -17,8 +17,8 @@ salah satu fungsinya untuk menghidari Goroutine leak
 
 ## Context with timeout
 - sangat cocok ketika melakukan query database atau untuk http api, namun ingin menentukan batas maksimal timeoutnya
-- menggunakan context.WithTimeout(parent, duration)
+- menggunakan `context.WithTimeout(parent, duration)`
 
 ## Context with deadline
 - pengaturan deadline ditentukan kapan waktu timeout nya, misal jam 12 siang hari ini
-- context.WithDeadline(parent, time)
+- `context.WithDeadline(parent, time)`
